@@ -1,0 +1,98 @@
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/iranyekanwebbold.ttf);
+}
+body {
+  font-family: yekan;
+  color: #516171;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
+}
+a {
+  color: #092032;
+  text-decoration: none !important;
+  font-weight: 500;
+}
+/* UTILITY */
+.lh-1 {
+  line-height: 30px;
+}
+.lh-2 {
+  line-height: 35px;
+}
+.en {
+  font-family: sans-serif;
+}
+/* NAVBAR */
+.top-nav {
+  background-color: #ff4d29;
+  direction: ltr;
+}
+.top-nav span,
+.top-nav i {
+  vertical-align: middle;
+}
+.social-link a {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: ease-in-out .4s;
+}
+.social-link a:hover{
+    background-color: #fff;
+    color:#ff4d29;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+.navbar-brand span{
+    color: #ff4d29;
+    font-size: 35px;
+}
+.contact-us-btn{
+    background-color: #ff4d29;
+    color: #fff;
+    border-color: #ff4d29;
+}
+.contact-us-btn:hover{
+    color: #fff;
+    background-color: #c33417;
+}
+.navbar .navbar-nav .nav-link{
+  color: #092039;
+}
+.navbar .navbar-nav .nav-link:hover ,
+.navbar .navbar-nav .nav-link:hover 
+{color:#ff4d29;}
+.line1,
+.line2,
+.line3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: ease-in-out 0.3s;
+}
+.change .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .line2 {
+  opacity: 0;
+}
+.change .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
