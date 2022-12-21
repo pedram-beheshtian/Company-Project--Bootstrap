@@ -2,9 +2,16 @@
   font-family: yekan;
   src: url(../fonts/iranyekanwebbold.ttf);
 }
+@font-face{
+  font-family: koodak;
+  src: url(../fonts/B\ Koodak\ Bold_0.ttf);
+}
 body {
   font-family: yekan;
   color: #516171;
+}
+.font-koodak{
+  font-family: koodak !important;
 }
 h1,
 h2,
@@ -30,6 +37,12 @@ a {
 .en {
   font-family: sans-serif;
 }
+.bg-cover {
+  background-repeat: no-repeat !important;
+  background-attachment:scroll !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
 /* NAVBAR */
 .top-nav {
   background-color: #ff4d29;
@@ -49,36 +62,37 @@ a {
   color: #fff;
   font-size: 20px;
   border-radius: 50%;
-  transition: ease-in-out .4s;
+  transition: ease-in-out 0.4s;
 }
-.social-link a:hover{
-    background-color: #fff;
-    color:#ff4d29;
+.social-link a:hover {
+  background-color: #fff;
+  color: #ff4d29;
 }
-.navbar-brand{
-    font-weight: 700;
-    font-size: 26px;
-    color: #092032;
+.navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+  color: #092032;
 }
-.navbar-brand span{
-    color: #ff4d29;
-    font-size: 35px;
+.navbar-brand span {
+  color: #ff4d29;
+  font-size: 35px;
 }
-.contact-us-btn{
-    background-color: #ff4d29;
-    color: #fff;
-    border-color: #ff4d29;
+.contact-us-btn {
+  background-color: #ff4d29;
+  color: #fff;
+  border-color: #ff4d29;
 }
-.contact-us-btn:hover{
-    color: #fff;
-    background-color: #c33417;
+.contact-us-btn:hover {
+  color: #fff;
+  background-color: #c33417;
 }
-.navbar .navbar-nav .nav-link{
+.navbar .navbar-nav .nav-link {
   color: #092039;
 }
-.navbar .navbar-nav .nav-link:hover ,
-.navbar .navbar-nav .nav-link:hover 
-{color:#ff4d29;}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff4d29;
+}
 .line1,
 .line2,
 .line3 {
@@ -95,4 +109,11 @@ a {
 }
 .change .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+/* SLIDER */
+.slide1{
+  background: linear-gradient(rgba(9,32,50,.5),rgba(9, 32, 50, 0.5)),url(../img/bg_banner1.jpg);
+}
+.slide2{
+  background: url(../img/bg_banner2.jpg);
 }
