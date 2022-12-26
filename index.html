@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/bootstrap.fa.min.css" />
+    <link rel="title icon" type="image/png" href="./img/" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/boxicons.min.css" />
-    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
-   <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <title>Company Project</title>
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="top-nav text-white py-2">
+    <nav class="top-nav py-2 eng-lang">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="d-inline-flex align-items-center" class="col-auto">
-            <p class="px-2 pl-3 mb-0 d-inline-block">
+          <div class="col-auto conections">
+            <p class="mb-2 mb-md-0 d-block d-md-inline-block text-white">
               <i class="bx bxs-envelope"></i>
+              <span> beheshtianpedram.com</span>
             </p>
-            <span class="en">this.company@gmail.com</span>
-            <p class="px-2 pl-3 mb-0 d-inline-block">
+            <p class="mb-0 ms-0 ms-md-2 d-block d-md-inline-block text-white">
               <i class="bx bxs-phone-call"></i>
+              <span>(+98) 9356215650</span>
             </p>
-            <span class="en">(031) 532-17335</span>
           </div>
-          <div class="col-auto">
+          <div class="col-auto social-link-box">
             <div class="social-link">
-              <a href="#"><i class="bx bxl-instagram"></i></a>
-              <a href="#"><i class="bx bxl-telegram"></i></a>
-              <a href="#"><i class="bx bxl-whatsapp"></i></a>
-              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href=""><i class="bx bxl-linkedin"></i></a>
+              <a href=""><i class="bx bxl-telegram"></i></a>
+              <a href=""><i class="bx bxl-instagram"></i></a>
+              <a href=""><i class="bx bxl-javascript"></i></a>
             </div>
           </div>
         </div>
@@ -43,37 +45,37 @@
         <button
           class="navbar-toggler nav-button"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
         >
-        <div class="line1 bg-dark"></div>
-        <div class="line2 bg-dark"></div>
-        <div class="line3 bg-dark"></div>
+          <div class="line1 bg-dark"></div>
+          <div class="line2 bg-dark"></div>
+          <div class="line3 bg-dark"></div>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul
-            class="navbar-nav list-unstyled"
+            class="navbar-nav list-unstyled pe-1"
             style="margin-inline-start: auto"
           >
-            <li class="nav-item">
+            <li class="nav-item m-auto me-sm-0">
               <a class="nav-link active" href="#">خانه</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item m-auto me-sm-0">
               <a class="nav-link" href="#">درباره ی ما</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item m-auto me-sm-0">
               <a class="nav-link" href="#">خدمات ما</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item m-auto me-sm-0">
               <a class="nav-link" href="#">نمونه کار</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item m-auto me-sm-0">
               <a class="nav-link" href="#">گروه ما</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item m-auto me-sm-0">
               <a class="nav-link" href="#">مرور</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item m-auto me-sm-0">
               <a class="nav-link" href="#">آدرس ما</a>
             </li>
           </ul>
@@ -82,23 +84,32 @@
       </div>
     </nav>
     <!-- SLIDER -->
-    <div class="font-koodak">
-      <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h6 class="h3 text-white">ما تجربه ی دیجیتال را ایجاد میکنیم</h6>
-              <h1 class="display-1 text-white my-3">طراحی محور برای <br>حرفه ای ها</h1>
-              <a class="btn contact-us-btn" role="button" href="#">شروع کردن</a>
-              <a class="btn btn-outline-light ms-md-3" role="button" href="#">کارهای ما</a>
+
+    <div class="font-koodak carousel slide" data-bs-ride="carousel" id="myCarousel">
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image slide1 active d-flex align-items-center">
+          <div class="container">
+              <div class="col-12">
+                <h6 class="h3 text-white">ما تجربه ی دیجیتال را ایجاد میکنیم</h6>
+                <h1 class="display-1 text-white my-3">طراحی محور برای <br>حرفه ای ها</h1>
+                <a class="btn contact-us-btn" role="button" href="#">شروع کردن</a>
+                <a class="btn btn-outline-light ms-md-3" role="button" href="#">کارهای ما</a>
             </div>
           </div>
         </div>
+        <div class="carousel-item carousel-image slide2"></div>
+        <div class="carousel-item carousel-image slide3"></div>
       </div>
     </div>
-    <script src="./js/jquery-3.6.1.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <button class="carousel-control-prev slider-btn-left"" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" ></span>
+    </button>
+    <button class="carousel-control-next slider-btn-right" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" ></span>
+    </button>
+    </div>
+    <script src="./js/jquery-3.6.3.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
