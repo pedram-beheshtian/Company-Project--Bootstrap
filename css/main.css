@@ -146,7 +146,6 @@ a {
   background-size: cover !important;
   height: 100vh;
 }
-
 .slide1 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/bg_banner1.jpg);
@@ -160,13 +159,37 @@ a {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/project1.jpg);
 }
-.slider-btn-right{
-  margin-top: 300px;
-  justify-content: start !important;
-  right: 15px;
+.carousel-content-2 {
+  position: absolute;
+  display: flex;
+  top: 50%;
 }
-.slider-btn-left{
-  margin-top: 300px;
-  justify-content: end;
-  left: 15px;
+.slider-btn-right {
+  top: 50%;
+  justify-content: start !important;
+  right: 0px;
+  width: auto !important;
+  height: 0 !important;
+}
+.slider-btn-left {
+  top: 50%;
+  justify-content: end !important;
+  left: 0px;
+  width: auto !important;
+  height: 0 !important;
+}
+.slider-btn-style{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: .3s all;
+  width: 60px !important;
+  height: 60px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.slider-btn-style:hover{
+  background-color: #ff4d29;
+  color: #fff;
 }
