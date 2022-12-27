@@ -202,8 +202,20 @@ a {
     top: 32%;
     right: 15%;
   }
+  .carousel-caption-2{
+      position: absolute;
+      right: 15%;
+      left: 15%;
+      top: 15%;;
+      transform: translateY(+50%);
+      text-align: center;
+  }
   .slide1-title-slogan{
     font-size: 35px;
+  }
+  .slide2-title-slogan{
+    font-size: 35px;
+    margin-bottom: 50px;
   }
 }
 @media(max-width:991px){
@@ -213,11 +225,23 @@ a {
     left: 15%;
     text-align: center;
   }
+  .carousel-caption-2{
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 0%;
+    transform: translateY(+50%);
+    text-align: center;
+}
   .slide1-title-slogan{
     font-size: 40px;
-    margin-bottom: 85px;
+    margin-bottom: 35px;
   }
-  .slide1-origin-slogan{
+  .slide2-title-slogan{
+    font-size: 40px;
+    padding-bottom: 55px;
+  }
+  .slide1-origin-slogan ,.slide2-origin-slogan{
     font-size: 70px;
     padding-bottom: 25px;
   }
@@ -229,11 +253,17 @@ a {
     left: 15%;
     text-align: center;
   }
-  .slide1-title-slogan{
-    font-size: 30px;
-    margin-bottom: 85px;
+  .carousel-caption-2{
+    right: 15%;
+    top: -10%;
+    left: 15%;
+    text-align: center;
   }
-  .slide1-origin-slogan{
+  .slide1-title-slogan,.slide2-title-slogan{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .slide1-origin-slogan,.slide2-origin-slogan{
     font-size: 50px;
     padding-bottom: 25px;
   }
