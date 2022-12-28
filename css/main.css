@@ -32,6 +32,9 @@ a {
   text-decoration: none;
   transition: 0.4s all;
 }
+section{
+  padding: 80px 0;
+}
 /* UTILITY */
 .lh-1 {
   line-height: 30px;
@@ -267,4 +270,8 @@ a {
     font-size: 50px;
     padding-bottom: 25px;
   }
+}
+/* ABOUT */
+.about-pic{
+  max-width: 500px;
 }
