@@ -74,6 +74,20 @@ section {
   margin-top: 26px !important;
   margin-bottom: 26px !important;
 }
+.my-12px {
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+.pt-80px{
+  padding-top: 80px !important;
+}
+.pt-40px{
+  padding-top: 40px !important;
+}
+.py-20px{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
 .text-light-orange {
   color: #ff4d29 !important;
 }
@@ -135,7 +149,7 @@ section {
   font-size: 26px;
   color: #092032;
 }
-.navbar-brand span {
+.dot-brand {
   color: #ff4d29;
   font-size: 35px;
 }
@@ -458,4 +472,29 @@ section {
 }
 #review .owl-dot.active span {
   background: #ff4d29;
+}
+/* POSTS */
+#posts .post{
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+#posts .post a{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 2px 12px;
+  background-color: #ff4d29;
+  border-radius: 20px;
+  color: #fff;
+}
+/* FOOTER */
+footer{
+  background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)),
+  url(../img/bg_banner1.jpg);
+}
+footer p{
+  color: #adb3b9;
+}
+.footer-bottom{
+  border-top: 1.5px solid rgba(255,255,255,0.1);
 }
