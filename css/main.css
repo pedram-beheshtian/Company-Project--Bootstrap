@@ -19,7 +19,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   background-color: #ff4d29;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 /* HELPER CLASS */
 .font-koodak {
@@ -497,4 +497,29 @@ footer p{
 }
 .footer-bottom{
   border-top: 1.5px solid rgba(255,255,255,0.1);
+}
+/* MODAL */
+.modal-bg{
+  background: url(../img/c2.jpg);
+  min-height: 300px !important;
+}
+
+input.form-control {
+  border-color: transparent;
+  height: 44px;
+}
+.form-control {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.04);;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ff4d29;
+}
+.form-control::placeholder{
+  color: #b7b7b7;
+}
+textarea{
+  resize: none;
 }

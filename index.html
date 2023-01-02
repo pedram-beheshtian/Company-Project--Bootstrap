@@ -82,7 +82,7 @@
               <a class="nav-link" href="#posts">پست ها</a>
             </li>
           </ul>
-          <a class="contact-us-btn btn px-4 mr-3" href="#">ارتباط با ما</a>
+          <a class="contact-us-btn btn px-4 mr-3" data-bs-toggle="modal" data-bs-target="#massage-modal">ارتباط با ما</a>
         </div>
       </div>
     </nav>
@@ -567,7 +567,7 @@
       </div>
     </section>
     <!-- CONTACT US -->
-    <footer id="contact-us" class="bg-cover">
+    <footer class="bg-cover">
       <div class="footer-top text-center pt-80px pb-40px">
         <div class="container">
           <div class="row justify-content-center">
@@ -579,13 +579,58 @@
           </div>
         </div>
       </div>
-      <div class="footer-bottom text-center py-20px">
+      <div class="footer-bottom text-center py-20px px-2">
         <p>لطفا قوانین کیپی رایت را رعایت کنید - ساخته شده با <i class='bx bxs-heart text-danger'></i> توسط پدرام بهشتیان</p>
       </div>
     </footer>
+    <!-- MODAL -->
+
+<div class="modal fade" id="massage-modal">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div class="col-lg-4 bg-cover modal-bg"></div>
+            <div class="col-lg-8 mb-4">
+              <form class="p-lg-3 col-12 row g-3 mx-auto" action="#">
+                <div>
+                  <h1 class="pt-2">با ما در ارتباط باشید</h1>
+                  <p>این فرم را پر کنید تا پشتیبانان ما در اسراع وقات با شما تماس بگیرند</p>
+                </div>
+                <div class="col-lg-6">
+                  <label for="username" class="form-label">نام :</label>
+                  <input type="text" class="form-control " id="username" placeholder="محمد">
+                </div>
+                <div class="col-lg-6">
+                  <label for="lastname" class="form-label">نام خانوادگی :</label>
+                  <input type="text" class="form-control " id="lastname" placeholder="شریفی">
+                </div>
+                <div class="col-12">
+                  <label for="email-address" class="form-label">آدرس ایمیل :</label>
+                  <input type="text" class="form-control " id="email-address" placeholder="شریفی">
+                </div>
+                <div class="col-12">
+                  <label for="email-address" class="form-label">نوشتن پیام</label>
+                  <textarea class="form-control" name="" id="" cols="10" rows="5" placeholder="نظر من اینه که ..."></textarea>
+                </div>
+                <input type="submit" class="me-2 mt-4 btn contact-us-btn w-25" value="ارسال پیام "></input>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
     <script src="./js/jquery-3.6.3.slim.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
+

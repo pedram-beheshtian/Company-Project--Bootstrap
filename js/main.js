@@ -9,6 +9,9 @@ $(document).ready(function () {
     margin: 5,
     nav: false,
     smartSpeed: 800,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:false,
     responsive: {
       0: {
         items: 1,
